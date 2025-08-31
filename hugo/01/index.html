@@ -20,16 +20,23 @@
   />
 
   
-  <title>Hugoes - helailai 的 wiki</title>
+  <title>hugo本地常用命令总结 - helailai 的 wiki</title>
 
   
   <meta name="theme-color" />
 
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
+  <meta name="description" content="一、常用总结
+1. 添加新页面
+hugo new content/posts/my-first-post.md
+2. 编译更新前端代码
+hugo --config hugo.toml build
+3. 前端代码推送
+cd public
+git add .
+git commit -m &#34;hugo study 01&#34;
+git push origin main
+cd ..
+" />
   <meta name="author" content="helailai 的 wiki" /><link rel="preload stylesheet" as="style" href="https://helailai666.github.io/main.min.css" />
 
   
@@ -39,7 +46,11 @@
 
   
 
-  
+  <script
+    defer
+    src="https://helailai666.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
 
   
   <link
@@ -52,23 +63,25 @@
   />
 
   <meta name="generator" content="Hugo 0.148.2">
-  <meta itemprop="name" content="Hugoes">
+  <meta itemprop="name" content="hugo本地常用命令总结">
+  <meta itemprop="description" content="一、常用总结 1. 添加新页面 hugo new content/posts/my-first-post.md 2. 编译更新前端代码 hugo --config hugo.toml build 3. 前端代码推送 cd public git add . git commit -m &#34;hugo study 01&#34; git push origin main cd ..">
   <meta itemprop="datePublished" content="2025-08-31T20:42:45+08:00">
-  <meta itemprop="dateModified" content="2025-08-31T20:42:45+08:00"><meta property="og:url" content="https://helailai666.github.io/hugo/">
+  <meta itemprop="dateModified" content="2025-08-31T20:42:45+08:00">
+  <meta itemprop="wordCount" content="31"><meta property="og:url" content="https://helailai666.github.io/hugo/01/">
   <meta property="og:site_name" content="helailai 的 wiki">
-  <meta property="og:title" content="Hugoes">
+  <meta property="og:title" content="hugo本地常用命令总结">
+  <meta property="og:description" content="一、常用总结 1. 添加新页面 hugo new content/posts/my-first-post.md 2. 编译更新前端代码 hugo --config hugo.toml build 3. 前端代码推送 cd public git add . git commit -m &#34;hugo study 01&#34; git push origin main cd ..">
   <meta property="og:locale" content="zh_cn">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="hugo">
+    <meta property="article:published_time" content="2025-08-31T20:42:45+08:00">
+    <meta property="article:modified_time" content="2025-08-31T20:42:45+08:00">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hugoes">
-<link
-    rel="alternate"
-    type="application/rss&#43;xml"
-    href="https://helailai666.github.io/hugo/index.xml"
-    title="helailai 的 wiki"
-  />
-  <link rel="canonical" href="https://helailai666.github.io/hugo/" />
+  <meta name="twitter:title" content="hugo本地常用命令总结">
+  <meta name="twitter:description" content="一、常用总结 1. 添加新页面 hugo new content/posts/my-first-post.md 2. 编译更新前端代码 hugo --config hugo.toml build 3. 前端代码推送 cd public git add . git commit -m &#34;hugo study 01&#34; git push origin main cd ..">
+
+  <link rel="canonical" href="https://helailai666.github.io/hugo/01/" />
 </head>
 <body
     class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
@@ -144,16 +157,24 @@
 </header>
 <main
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
-    >
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">hugo本地常用命令总结</h1><div class="text-xs antialiased opacity-60"><time>Aug 31, 2025</time></div></header>
 
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">hugo本地常用命令总结</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Aug 31, 2025</time
-  >
-  <a class="absolute inset-0 text-[0px]" href="https://helailai666.github.io/hugo/01/"
-    >hugo本地常用命令总结</a
-  >
-</section></main><footer
+  <section><h2 id="一常用总结">一、常用总结</h2>
+<h3 id="1-添加新页面">1. 添加新页面</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content/posts/my-first-post.md
+</span></span></code></pre></div><h3 id="2-编译更新前端代码">2. 编译更新前端代码</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo --config hugo.toml build
+</span></span></code></pre></div><h3 id="3-前端代码推送">3. 前端代码推送</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;hugo study 01&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin main
+</span></span><span style="display:flex;"><span>cd ..
+</span></span></code></pre></div></section>
+
+  </article></main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
   <div class="mr-auto">&copy;2025
