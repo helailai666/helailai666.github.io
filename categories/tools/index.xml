@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>博客文章 on helailai 的 wiki</title>
-    <link>https://helailai666.github.io/</link>
-    <description>Recent content in 博客文章 on helailai 的 wiki</description>
+    <title>Tools on helailai 的 wiki</title>
+    <link>https://helailai666.github.io/categories/tools/</link>
+    <description>Recent content in Tools on helailai 的 wiki</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 31 Aug 2025 21:49:08 +0800</lastBuildDate>
-    <atom:link href="https://helailai666.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://helailai666.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker 安装命令</title>
       <link>https://helailai666.github.io/tools_install/docker/install/</link>
