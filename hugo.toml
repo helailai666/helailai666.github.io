@@ -825,8 +825,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Options to make hugo output files
 # 用于 Hugo 输出文档的设置
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
 
