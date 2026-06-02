@@ -16,13 +16,13 @@ title = "何来来的笔记"
 defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "zh-cn"
+languageCode = "zh-CN"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
 languageName = "简体中文"
 # whether to include Chinese/Japanese/Korean
 # 是否包括中日韩文字
-hasCJKLanguage = false
+hasCJKLanguage = true
 
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
@@ -282,7 +282,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       gravatarEmail = "lailaihe6@gmail.com"
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "https://raw.githubusercontent.com/helailai666/helailai_wiki/main/images.jpg"
+      avatarURL = ""
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = "何来来的笔记"
@@ -907,7 +907,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = "lailaihe6@gmail.com"
-          avatarURL = "https://raw.githubusercontent.com/helailai666/helailai_wiki/main/images.jpg"
+          avatarURL = ""
           title = ""
           subtitle = "A Clean, Elegant but Advanced Hugo Theme"
           typeit = true
@@ -1004,7 +1004,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = "lailaihe6@gmail.com"
-          avatarURL = "https://raw.githubusercontent.com/helailai666/helailai_wiki/main/images.jpg"
+          avatarURL = ""
           title = ""
           subtitle = "一个简洁、优雅且高效的 Hugo 主题"
           typeit = true
