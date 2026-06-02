@@ -3,5 +3,12 @@
   "outputDirectory": "public",
   "framework": "hugo",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_extended_0.145.0_Linux-64bit.tar.gz -o hugo.tar.gz && tar -xzf hugo.tar.gz && mv hugo /usr/local/bin/",
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/index.html"
+    }
+  ]
 }
