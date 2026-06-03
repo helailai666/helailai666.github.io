@@ -23,14 +23,19 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Fix LoveIt theme partials
+      - name: Fix LoveIt theme partials  
         run: |
-          # LoveIt theme stores partials in _partials/ but Hugo's partial function
-          # looks in partials/. Create partials/ dir as a copy of _partials/
-          if [ -d "themes/LoveIt/layouts/_partials" ]; then
-            cp -r themes/LoveIt/layouts/_partials themes/LoveIt/layouts/partials
-            echo "✅ Created partials/ from _partials/ in LoveIt theme"
+          THEME="themes/LoveIt/layouts"
+          # Copy _partials → partials (all subdirs included)
+          if [ -d "$THEME/_partials" ]; then
+            cp -r "$THEME/_partials" "$THEME/partials"
+            echo "✅ Copied _partials → partials"
           fi
+          # Create missing internal template stubs in project
+          mkdir -p layouts/partials
+          echo '{{ template "_internal/opengraph.html" . }}' > layouts/partials/opengraph.html
+          echo '{{ template "_internal/twitter_cards.html" . }}' > layouts/partials/twitter_cards.html
+          echo "✅ Created opengraph + twitter_cards stubs"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
