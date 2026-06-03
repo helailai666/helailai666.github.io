@@ -23,6 +23,15 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Fix LoveIt theme partials
+        run: |
+          # LoveIt theme stores partials in _partials/ but Hugo's partial function
+          # looks in partials/. Create partials/ dir as a copy of _partials/
+          if [ -d "themes/LoveIt/layouts/_partials" ]; then
+            cp -r themes/LoveIt/layouts/_partials themes/LoveIt/layouts/partials
+            echo "✅ Created partials/ from _partials/ in LoveIt theme"
+          fi
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
