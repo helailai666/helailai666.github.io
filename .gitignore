@@ -1,7 +1,21 @@
-# 忽略 Hugo 生成的 public 文件夹
+# Hexo generated files
 public/
 
-# 其他常见的忽略项
-resources/
-.hugo_build.lock
+# Node dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+
+# Lock files (opt-in)
+package-lock.json
