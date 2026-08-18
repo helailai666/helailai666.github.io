@@ -1,5 +1,6 @@
 # Hexo generated files
 public/
+db.json
 
 # Node dependencies
 node_modules/
