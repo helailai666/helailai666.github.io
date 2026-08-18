@@ -87,7 +87,7 @@ exclude:
 ignore:
 
 # Extensions
-theme: landscape
+theme: fluid
 
 # Deployment
 deploy:
