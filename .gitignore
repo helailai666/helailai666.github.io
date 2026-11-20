@@ -17,6 +17,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Lock files (opt-in)
-package-lock.json
