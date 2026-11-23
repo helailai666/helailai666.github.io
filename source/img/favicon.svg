@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1120"/>
+      <stop offset="1" stop-color="#1B2A45"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="232" fill="none" stroke="#22D3EE" stroke-width="18"/>
+
+  <!-- 灯塔：粗轮廓，小尺寸下仍是一个明显的塔 -->
+  <polygon points="206,412 306,412 284,214 228,214" fill="#F2F8FF"/>
+  <rect x="222" y="214" width="68" height="34" fill="#F472B6"/>
+  <rect x="214" y="316" width="84" height="34" fill="#22D3EE"/>
+  <rect x="212" y="164" width="76" height="44" rx="10" fill="#0E1A2C"/>
+  <circle cx="250" cy="186" r="22" fill="#FFD34D"/>
+  <polygon points="204,164 296,164 250,110" fill="#0E1A2C"/>
+
+  <!-- 闪电：右上角单一大色块 -->
+  <polygon points="356,96 314,186 344,186 306,278 386,164 350,164 382,96" fill="#FFC53D" stroke="#F472B6" stroke-width="12" stroke-linejoin="round"/>
+</svg>
