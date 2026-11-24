@@ -16,7 +16,7 @@ language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
-url: https://helailai666.github.io
+url: https://www.hlailai.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -88,6 +88,14 @@ ignore:
 
 # Extensions
 theme: fluid
+
+# Sitemap（供搜索引擎抓取，hexo-generator-sitemap）
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  tags: true
+  categories: true
 
 # Deployment
 deploy:

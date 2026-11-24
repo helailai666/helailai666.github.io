@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.hlailai.top/sitemap.xml
+Sitemap: https://www.hlailai.top/sitemap.txt
